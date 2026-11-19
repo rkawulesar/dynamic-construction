@@ -1,0 +1,26 @@
+.reference/
+node_modules/
+dist/
+**/bin/
+**/obj/
+**/App_Data/
+.env
+.env.*
+!.env.example
+*.user
+*.db*
+TestResults/
+playwright-report/
+test-results/
+artifacts/
+*.tsbuildinfo
+**/TestResults/
+
+# Local credentials and temporary files
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+/state/
+/tmp/
